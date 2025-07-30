@@ -1,0 +1,14 @@
+a=int(input ("Enter the first integer:")) b=int(input("Enter the second integer:"))
+quo=a/b
+rem=a%b
+flo=a//b
+print(quo)
+print(rem)
+print(flo)
+
+Output:
+Enter the first integer:15
+Enter the second integer:2
+7.5
+1
+7
