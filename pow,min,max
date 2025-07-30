@@ -1,0 +1,18 @@
+a=float(input ("Enter the first integer:"))
+b=float(input("Enter the second integer:"))
+pow=a**b
+diff=abs(a-b)
+max=max(a,b)
+min=min(a,b)
+print(pow)
+print(diff)
+print(max)
+print(min)
+
+Output:
+Enter the first integer:2
+Enter the second integer:10
+1024.0
+8.0
+10.0
+2.0
