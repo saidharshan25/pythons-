@@ -1,0 +1,9 @@
+a=float(input("Enter the a of square:"))
+area=a*2
+print("Area of square is",area)
+
+
+
+Output:
+Enter the a of square:4
+Area of square is 8.0
