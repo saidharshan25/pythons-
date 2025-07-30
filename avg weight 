@@ -1,0 +1,32 @@
+print("Enter the weight of Eight objects:")
+obj1=float(input("Enter object 1 weight:"))
+obj2=float(input("Enter object 2 weight:"))
+obj3=float(input("Enter object 3 weight:"))
+obj4=float(input("Enter object 4 weight:"))
+obj5=float(input("Enter object 5 weight:"))
+obj6=float(input("Enter object 6 weight:"))
+obj7=float(input("Enter object 7 weight:"))
+obj8=float(input("Enter object 8 weight:"))
+total=obj1+obj2+obj3+obj4+obj5+obj6+obj7+obj8
+avg=total/8
+print("\n Total weight is=",total)
+print("\n Average weight is=",avg)
+max=max(obj1,obj2,obj3,obj4,obj5,obj6,obj7,obj8)
+min=min(obj1,obj2,obj3,obj4,obj5,obj6,obj7,obj8)
+print(max)
+print(min)
+
+
+Output Enter the weight of Eight objects:
+Enter object 1 weight:80.34
+Enter object 2 weight:68.4
+Enter object 3 weight:70.00
+Enter object 4 weight:93.45
+Enter object 5 weight:78.96
+Enter object 6 weight:75.39
+Enter object 7 weight:69.35
+Enter object 8 weight:47.46
+ Total weight is= 583.35
+ Average weight is= 72.91875
+93.45
+47.46
