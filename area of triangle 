@@ -1,0 +1,10 @@
+base=float(input("Enter the base of circle:"))
+height=float(input ("Enter the height of circle:"))
+area=0.5*base*height 
+print("Area of triangle is",area)
+
+
+Output:
+Enter the base of circle:12
+Enter the height of circle:23
+Area of triangle is 138.0
