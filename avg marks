@@ -1,0 +1,25 @@
+print("Enter the marks of five subject:")
+sub1=int(input("Enter subject 1 mark:"))
+sub2=int(input("Enter subject 2 mark:"))
+sub3=int(input("Enter subject 3 mark:"))
+sub4=int(input("Enter subject 4 mark:"))
+sub5=int(input("Enter subject 5 mark:"))
+total=sub1+sub2+sub3+sub4+sub5
+avg=total/5
+percentage=(total/500)*100
+print("\n Total mark is=",total)
+print("\n Average mark is=",avg)
+print("\n percentage of mark is=", percentage)
+
+
+
+Output:
+Enter the marks of five subject:
+Enter subject 1 mark:96
+Enter subject 2 mark:95
+Enter subject 3 mark:98
+Enter subject 4 mark:84
+Enter subject 5 mark:74
+ Total mark is= 447
+ Average mark is= 89.4
+ percentage of mark is= 89.4
