@@ -1,0 +1,8 @@
+a=float(input("Enter the a of square:"))
+circumference=4*a
+print("Area of square is", circumference)
+
+
+Output:
+Enter the a of square:8
+Area of square is 32.0
