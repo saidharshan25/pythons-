@@ -1,0 +1,12 @@
+def concatenate_with_separator(string_list,separator):
+    result_string=separator.join(string_list)
+    return result_string
+string_list=["Hello","world","this","is","a","test"]
+separator=","
+result_string=concatenate_with_separator(string_list,separator)
+print("Concatenated string:",result_string)
+
+
+
+Output:
+Concatenated string: Hello,world,this,is,a,test
