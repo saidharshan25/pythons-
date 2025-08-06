@@ -1,0 +1,11 @@
+def replace_space_with_hyphens(input_string):
+    result_string=input_string.replace(" ","-")
+    return result_string
+input_string=input("Enter a string:")
+result_string=replace_space_with_hyphens(input_string)
+print("String with spaces replaced by hyphens:",result_string)
+
+
+Output:
+Enter a string:sai Dharshan 
+String with spaces replaced by hyphens: sai-Dharshan-
