@@ -1,0 +1,13 @@
+def count_words(input_string):
+    words = input_string.split()
+    word_count = len(words)
+    return word_count
+    
+input_string = input("Enter a string:”)
+print ("Number of words:",count_words(input_string))
+
+
+
+Output:
+Enter a string:sai Dharshan 
+Number of words: 2
