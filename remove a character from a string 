@@ -1,0 +1,16 @@
+def delete_character(input_string, char_to_remove):
+    result_string = input_string.replace(char_to_remove, "")
+    return result_string
+input_string = input("Enter the string: ")
+char_to_remove = input("Enter the character to remove: ")
+if len(char_to_remove) != 1:
+    print("Please enter exactly one character to remove.")
+else:
+    result_string = delete_character(input_string, char_to_remove)
+    print("String after removal:",result_string)
+
+
+Output:
+Enter the string: sai Dharshan 
+Enter the character to remove: a
+String after removal: si Dhrshn 
