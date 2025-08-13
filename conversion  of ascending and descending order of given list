@@ -1,0 +1,12 @@
+my_list=[154,548,4,644,48]
+ascending_list=sorted(my_list)
+descending_list=sorted(my_list,reverse=True)
+print("Original List",my_list)
+print("List in Ascending Order:",ascending_list)
+print("List in Descending Order:",descending_list)
+
+
+  Output:
+Original List [154, 548, 4, 644, 48]
+List in Ascending Order: [4, 48, 154, 548, 644]
+List in Descending Order: [644, 548, 154, 48, 4]
