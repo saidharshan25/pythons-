@@ -1,0 +1,10 @@
+my_tuple=(10,20,30,40,50)
+element=30
+if element in my_tuple:
+    print(f"{element} exists in the tuple.")
+else:
+    print(f"{element}DOES not exists  in the tuple.")
+
+
+  Output:
+30 exists in the tuple.
