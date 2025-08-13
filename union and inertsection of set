@@ -1,0 +1,16 @@
+
+set1={12,45,68,41,89}
+set2={82,49,48,89,45}
+union_set=set1.union(set2)
+intersection_set=set1.intersection(set2)  
+print("Set 1:",set1)
+print("Set 2:",set2)    
+print("Union of set1 and set2:",union_set)
+print("Intersection of set1 and set2:",intersection_set)
+
+
+Output:
+Set 1: {89, 68, 41, 12, 45}
+Set 2: {48, 49, 82, 89, 45}
+Union of set1 and set2: {68, 41, 12, 45, 48, 49, 82, 89}
+Intersection of set1 and set2: {89, 45}
