@@ -1,0 +1,16 @@
+set1={1,2,3}
+set2={1,2,3,4,5}
+is_subset=set1.issubset(set2)
+is_superset=set2.issuperset(set1)  
+print("Set 1:",set1)
+print("Set 2:",set2)    
+print("Is Set1 a subset of set2?:",is_subset)
+print("Is Set2 a superset of Set1?:",is_superset)
+
+
+  Output:
+
+Set 1: {1, 2, 3}
+Set 2: {1, 2, 3, 4, 5}
+Is Set1 a subset of set2?: True
+Is Set2 a superset of Set1?: True
