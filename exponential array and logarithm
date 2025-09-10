@@ -1,0 +1,20 @@
+import numpy as np
+arr=([0,1,2,3,4])
+exp_arr=np.exp(arr)
+print("Exponential of Array Elements:\n",exp_arr)
+arr=np.array([1,2.718,7.389,20.085,54.598])
+log_arr=np.log(arr)
+print("Natural Logarithm of Array Element:\n",log_arr)
+arr=np.array([1,10,100,1000,10000])
+log10_arr=np.log10(arr)
+print("Base-10 Logarithm of Array Element:\n",log10_arr)
+
+
+
+Output:
+Exponential of Array Elements:
+ [ 1.          2.71828183  7.3890561  20.08553692 54.59815003]
+Natural Logarithm of Array Element:
+ [0.         0.99989632 1.99999241 2.99997327 3.99999725]
+Base-10 Logarithm of Array Element:
+ [0. 1. 2. 3. 4.]
