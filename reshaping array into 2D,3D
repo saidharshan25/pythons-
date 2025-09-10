@@ -1,0 +1,26 @@
+import numpy as np
+arr=np.arange(1,13)
+print("Original 1D array")
+reshaped_arr_2d=arr.reshape(3,4)
+print("Reshaped 2D Array(3X4):\n",reshaped_arr_2d)
+reshaped_arr_3d=arr.reshape(2,3,2)
+print("Reshaped 3D Array(2X3X3):\n",reshaped_arr_3d)
+flattened_arr=reshaped_arr_3d.flatten()
+print("Flattened Array:",flattened_arr)
+
+
+Output:
+Original 1D array
+Reshaped 2D Array(3X4):
+ [[ 1  2  3  4]
+ [ 5  6  7  8]
+ [ 9 10 11 12]]
+Reshaped 3D Array(2X3X3):
+ [[[ 1  2]
+  [ 3  4]
+  [ 5  6]]
+
+ [[ 7  8]
+  [ 9 10]
+  [11 12]]]
+Flattened Array: [ 1  2  3  4  5  6  7  8  9 10 11 12]
