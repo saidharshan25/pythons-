@@ -1,0 +1,28 @@
+import numpy as np
+arr=np.arange(1,11)
+sum_arr=np.sum(arr)
+print("Sum:",sum_arr)
+product_arr=np.prod(arr)
+print("product:",product_arr)
+min_value=np.min(arr)
+print("Minimum Value",min_value)
+max_value=np.max(arr)
+print("Maximum Value:",max_value)
+mean_value=np.mean(arr)
+print("Mean:",mean_value)
+median__value=np.median(arr)
+print("Median:",median__value)
+variance_value=np.var(arr)
+print("Variance:",variance_value)
+std_dev=np.std(arr)
+print("Standard Deviation:",std_dev)
+
+Output:
+Sum: 55
+product: 3628800
+Minimum Value 1
+Maximum Value: 10
+Mean: 5.5
+Median: 5.5
+Variance: 8.25
+Standard Deviation: 2.8722813232690143
