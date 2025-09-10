@@ -1,0 +1,34 @@
+import numpy as np
+angles_rad=np.array([0,np.pi/6,np.pi/4,np.pi/3,np.pi/2])
+sine_values=np.sin(angles_rad)
+print("Sine of angles in radians:\n",sine_values)
+angles_rad=np.array([0,np.pi/6,np.pi/4,np.pi/3,np.pi/2])
+cosine_values=np.cos(angles_rad)
+print("Cosine of angles in radians:\n",cosine_values)
+angles_rad=np.array([0,np.pi/6,np.pi/4,np.pi/3,np.pi/2])
+tangent_values=np.tan(angles_rad)
+print("Tangent of Angles in radians:\n",tangent_values)
+values=np.array([0,0.5,1])
+arcin_values=np.arcsin(values)
+print("Arcin of values:\n",arcin_values)
+arccos_values=np.arccos(values)
+print("Arccos of values:\n",arccos_values)
+arctan_values=np.arctan(values)
+print("Arctan of values:\n",arctan_values)
+
+
+Output:
+Sine of angles in radians:
+ [0.         0.5        0.70710678 0.8660254  1.        ]
+Cosine of angles in radians:
+ [1.00000000e+00 8.66025404e-01 7.07106781e-01 5.00000000e-01
+ 6.12323400e-17]
+Tangent of Angles in radians:
+ [0.00000000e+00 5.77350269e-01 1.00000000e+00 1.73205081e+00
+ 1.63312394e+16]
+Arcin of values:
+ [0.         0.52359878 1.57079633]
+Arccos of values:
+ [1.57079633 1.04719755 0.        ]
+Arctan of values:
+ [0.         0.46364761 0.78539816]
