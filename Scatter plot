@@ -1,0 +1,16 @@
+import matplotlib.pyplot as plt
+import seaborn as sns
+import pandas as pd
+data={
+      'Height':[60,62,65,67,70,72,75,78,80,82],
+      'Weight':[155,120,130,140,150,160,170,180,190,200]
+     }
+height_weight_df=pd.DataFrame(data)
+plt.figure(figsize=(10,6))
+sns.regplot(x='Height',y='Weight',data=height_weight_df,marker='o',color='blue')
+plt.title('Scatter Plot of Height vs. Weight with Regression Line')
+plt.xlabel('Height(inches)')
+plt.ylabel('Weight(pounds)')
+plt.grid()
+plt.tight_layout()
+plt.show()
