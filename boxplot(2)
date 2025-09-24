@@ -1,0 +1,18 @@
+import matplotlib.pyplot as plt
+import seaborn as sns
+import pandas as pd
+data={
+      'Student':['John','Emily','Micheal','sahar','David','Anna','Tom','James','Laura','Alice'],
+      'Maths':[85,78,92,88,76,95,83,67,74,89],
+      'Science':[90,82,94,85,80,95,78,88,76,90],
+      'Engkish':[78,85,91,88,76,84,75,90,77,88],
+      'History':[70,75,80,68,73,88,84,67,82,90]
+     }
+exam_scores=pd.DataFrame(data)
+exam_scores_melted=pd.melt(exam_scores,id_vars=["Student"],var_name="Subject",value_name="Scores")
+plt.figure(figsize=(10,6))
+sns.boxplot(x="Subject",y="Scores",data=exam_scores_melted)
+plt.title('Distribution of Student Marks')
+plt.xlabel('Subject')
+plt.ylabel('Scores')
+plt.show()
