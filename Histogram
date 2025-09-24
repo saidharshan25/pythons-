@@ -1,0 +1,13 @@
+import matplotlib.pyplot as plt
+import seaborn as sns
+import pandas as pd
+data={
+      'Student':['John','Emily','Micheal','sahar','David','Anna','Tom','James','Laura','Alice'],
+      'Marks':[85,78,92,88,76,95,83,67,74,89]
+     }
+student_marks=pd.DataFrame(data)
+sns.histplot(student_marks['Marks'],kde=True,color='blue',bins=6)
+plt.title('Distribution of Student Marks')
+plt.xlabel('Marks')
+plt.ylabel('Frequency')
+plt.show()
