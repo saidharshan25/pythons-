@@ -1,0 +1,15 @@
+import seaborn as sns
+import matplotlib.pyplot as plt
+import pandas as pd
+data={
+      'Job Role':['Manager','Developer','Analyst','Manager','Developer','Analyst','Manager',
+                  'Developer','Analyst','Develpoer'],
+                  'Salary':[120000,85000,65000,125000,87000,70000,130000,95000,60000,40000]
+     }
+df=pd.DataFrame(data)
+plt.figure(figsize=(10,6))
+sns.barplot(x='Job Role',y='Salary',data=df,estimator=sum,palette='viridis')
+plt.title('Salary Distribution for each job role')
+plt.xlabel('Job Role')
+plt.ylabel('Salary')
+plt.show()
