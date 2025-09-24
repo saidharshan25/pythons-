@@ -1,0 +1,15 @@
+import seaborn as sns
+import matplotlib.pyplot as plt
+import pandas as pd
+data={
+      'Job Role':['Engineer','Manager','Analyst','Engineer','Manager','Analyst','Engineer',
+                  'Manager','Analyst','Engineer'],
+      'Salary':[70000,80000,60000,72000,85000,58000,71000,82000,61000,75000]
+     }
+salary_data=pd.DataFrame(data)
+plt.figure(figsize=(10,6))
+sns.boxplot(x='Job Role',y='Salary',data=salary_data)
+plt.title('Salary Distribution by Job Role')
+plt.xlabel('Job Role')
+plt.ylabel('Salary')
+plt.show()
