@@ -1,0 +1,11 @@
+import matplotlib.pyplot as plt
+import numpy as np
+countries=['USA','India','China','Brazil','Negeria','Russia','Japan']
+population=[331,1380,1441,213,206,146,126]
+colors=plt.cm.viridis(np.linspace(0,1,len(countries)))
+plt.figure(figsize=(10,6))
+plt.bar(countries,population,color=colors)
+plt.title('Population of Different Countries',fontsize=16)
+plt.xlabel('Countries',fontsize=12)
+plt.ylabel('Population (in millions)',fontsize=12)
+plt.show()
