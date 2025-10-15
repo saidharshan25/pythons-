@@ -1,0 +1,9 @@
+import matplotlib.pyplot as plt
+import numpy as np
+height=np.random.uniform(150,200,size=50)
+weight=np.random.uniform(50,100,size=50)
+plt.scatter(height,weight)
+plt.xlabel('Height(cm)')
+plt.ylabel('Weight(kg)')
+plt.title('Height vs Weight')
+plt.show()
