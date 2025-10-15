@@ -1,0 +1,13 @@
+import matplotlib.pyplot as plt
+months=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']
+sales_product_A=[150,200,250,300,350,280,320,400,380,420,450,500]
+sales_product_B=[180,220,240,280,340,300,360,420,400,440,470,520]
+plt.figure(figsize=(10,6))
+plt.plot(months,sales_product_A,marker='o',linestyle='-',color='blue',label='product A')
+plt.plot(months,sales_product_B,marker='s',linestyle='--',color='green',label='product B')
+plt.title('Monthly Sales Comparison of Product A and Product B')
+plt.xlabel('Months')
+plt.ylabel('Sales ($)')
+plt.grid(True)
+plt.legend()
+plt.show()
